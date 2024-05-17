@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookStore App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="Container">
+      <h1>BookStore</h1>
+      <div class="main">
+      <form action="" id="bookForm" enctype="multipart/form-data">
+        <label for="bookName">Name of the Book :</label><br />
+        <input
+          type="text"
+          id="bookName"
+          name="nameOfBook"
+          required
+        /><br />
+        <label for="authorName">Name of the author :</label><br />
+        <input
+          type="text"
+          id="authorName"
+          name="nameOfAuthor"
+          required
+        /><br />
+        <label for="bookPrice">Price of the Book:</label><br />
+        <input
+          type="number"
+          id="bookPrice"
+          name="bookPrice"
+          min="10"
+          max="10000"
+        /><br />
+        <label for="bookFile">choose a files:</label><br />
+        <input type="file" id="bookFile" required multiple /><br />
+        <button type="submit">Add Book</button>
+      </form>
+    </div>
+    </div>
+    <div class="table_section">
+      <h2>Lists of Books</h2>
+      <div class="view_section">
+        <table id="bookTable">
+          <tr>
+              <th>Book Name</th>
+              <th>Author Name</th>
+              <th>Book Price</th>
+              <th>File</th>
+              <th>Action</th>
+          </tr>
+      </table>
+      </div>
+    </div>
+    <script src="app.js">
+
+    </script>
+  </body>
+</html>

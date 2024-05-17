@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .Container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+    background-color: lightslategrey;
+  }
+  .Container h1 {
+    text-align: center;
+    padding: 10px 10px;
+    color: brown;
+  }
+  .Container input {
+    padding: 10px 10px;
+    width: 400px;
+    height: 30px;
+    margin: 10px 0px;
+    background-color: lightblue;
+    border: 0px solid;
+    outline-color: rgb(19, 161, 226);
+  }
+  .Container button {
+    text-align: center;
+    height: 50px;
+    border: 0px solid;
+    border-radius: 20px;
+    background-color: darkolivegreen;
+    padding: 10px;
+    font-size: 25px;
+    color: antiquewhite;
+    margin-top: 20px;
+    width: 250px;
+    margin: 20px 74px;
+    text-transform: uppercase;
+  }
+  .Container label {
+    margin-top: 10px;
+  }
+  .table_section {
+    background-color: bisque;
+  }
+  .table_section h2 {
+    text-align: center;
+    padding: 20px 20px;
+  }
+  .view_section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .view_section table {
+    background-color: antiquewhite;
+    padding: 70px 70px;
+    border-radius: 10px;
+  }
+  .view_section table th {
+    font-size: 23px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: chocolate;
+  }
+  .view_section table td {
+    font-size: 20px;
+    padding: 20px 20px;
+  }
+  .edit-btn, .delete-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #1c3809;
+    color: white;
+    border-radius: 4px;
+  }
+  .delete-btn {
+    background-color: #f48236;
+  }
+  
